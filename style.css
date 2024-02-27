@@ -1,0 +1,134 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 50px;
+    background-color: rgb(6, 6, 10);
+    color: bisque;
+    align-items: center;
+    
+}
+.brand img{
+    height: 40px;
+    width: 40px;
+
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    
+}
+.brand p{
+    padding-left: 6px;
+    padding-right: 6px;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.nav-row{
+    padding-left: 10px;
+}
+.container{
+    background-image: url(background.jpg);
+    background-size: cover;
+    height: 700px;
+    
+    width: auto;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    box-shadow: #000;
+    
+    
+   
+}
+.heading{
+    color: rgb(238, 224, 207);
+    padding-left: 20px;
+    padding-top: 20px;
+
+}
+.bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000; /* Black background */
+    color: #fff; /* White text color */
+    padding: 10px;
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#progress-bar {
+    width: 70%;
+    margin-right: 10px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.song-name {
+    margin-right: 10px;
+    padding-right: 10px;
+}
+
+/* Customize play and pause icons as per your preference */
+.play-icon, .pause-icon {
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.song1 img{
+    height: 60px;
+    width: 60px;
+    border-radius: 10px;
+
+    
+    
+}
+.song1{
+    color: white;
+    justify-content: space-between;
+    padding: 30px;
+
+   
+}
+
+.song-1-details{
+    padding: 3px;
+}
+
+/* chatGPT SE chapa hy */
+
+.songItem {
+    text-align:center; /* Center align the content within songItem */
+}
+
+.song1 {
+    display: flex;
+    
+    align-items: center; /* Center align items horizontally */
+}
+
+.song1 img {
+    max-width: 100%; /* Make sure the image doesn't exceed its container */
+}
+
+.song-1-details {
+    margin-top: 5px; /* Add some space between details */
+}
